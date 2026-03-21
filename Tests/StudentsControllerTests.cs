@@ -55,8 +55,8 @@ public class StudentsControllerTests
         var controller = CreateController(nameof(Create_ValidStudent_ReturnsCreatedAtAction));
         var dto = new StudentCreateDto
         {
-            FirstName = "Nuevo",
-            LastName = "Estudiante",
+            FirstName = "Michael",
+            LastName = "Asturias",
             Email = "nuevo@uni.edu",
             StudentCode = "TST-002"
         };
