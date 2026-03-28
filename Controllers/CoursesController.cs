@@ -61,7 +61,7 @@ public class CoursesController : ControllerBase
 
         var course = new Course
         {
-            Name = dto.Name + " UMG",
+            Name = dto.Name,
             Code = dto.Code,
             Credits = dto.Credits,
             ProfessorId = dto.ProfessorId
